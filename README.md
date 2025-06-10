@@ -24,4 +24,4 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 
 ## 📂 Examples
 
-- [Weather Tool Calling](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Tool-Calling-Weather-API): This app uses `tools` on the `AI SDK` and a free weather API to return weather information for a city.
+- [Weather Tool Calling](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Tool-Calling-Weather-API): usage of `tools` on the `AI SDK` and a free weather API.
