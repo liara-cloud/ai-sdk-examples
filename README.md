@@ -21,9 +21,11 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 - [Node.js](https://nodejs.org) (base of all codes)
 - [Next.js](https://nextjs.org/) (for frontend examples)
 - [TypeScript](https://www.typescriptlang.org/) (optional, depending on the example)
+- Svelte (for frontend examples)
 
 ## 📂 Examples
 
 - [Weather Tool Calling](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Tool-Calling-Weather-API): usage of `tools` on the `AI SDK` and a free weather API.
 - [NextJS App Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-App-Router-ChatBot): a good example of multi-step chatbot in NextJS App Router
 - [NextJS Pages Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-Pages-Router-ChatBot): a good example of multi-step chatbot in NextJS Pages Router
+- [Svelte ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Svelte-ChatBot): a good example of multi-step chatbot in Svelte
