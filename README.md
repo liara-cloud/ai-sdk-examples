@@ -29,3 +29,4 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 - [NextJS App Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-App-Router-ChatBot): a good example of multi-step chatbot in NextJS App Router
 - [NextJS Pages Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-Pages-Router-ChatBot): a good example of multi-step chatbot in NextJS Pages Router
 - [Svelte ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Svelte-ChatBot): a good example of multi-step chatbot in Svelte
+- [VueJS (Nuxt) ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Vue-Nuxt-ChatBot): a good example of multi-step chatbot in VueJS (Nuxt)
