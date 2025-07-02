@@ -16,7 +16,7 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 
 ## 🏗️ Technologies Used
 
-- [Vercel AI SDK](https://docs.liara.ir/ai/about/)
+- [Vercel AI SDK](https://ai-sdk.dev/docs/introduction)
 - [Liara AI API](https://docs.liara.ir/ai/about)
 - [Node.js](https://nodejs.org) (base of all codes)
 - [Next.js](https://nextjs.org/) (for frontend examples)
