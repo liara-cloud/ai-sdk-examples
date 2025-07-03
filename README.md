@@ -18,10 +18,11 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 
 - [Vercel AI SDK](https://ai-sdk.dev/docs/introduction)
 - [Liara AI API](https://docs.liara.ir/ai/about)
-- [Node.js](https://nodejs.org) (base of all codes)
-- [Next.js](https://nextjs.org/) (for frontend examples)
-- [TypeScript](https://www.typescriptlang.org/) (optional, depending on the example)
+- [Node.js](https://nodejs.org) 
+- [Next.js](https://nextjs.org/) 
+- [TypeScript](https://www.typescriptlang.org/) 
 - Svelte (for frontend examples)
+- VueJS (Nuxt)
 
 ## 📂 Examples
 
