@@ -23,6 +23,7 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 - [TypeScript](https://www.typescriptlang.org/) 
 - Svelte (for frontend examples)
 - VueJS (Nuxt)
+- Expo
 
 ## 📂 Examples
 
@@ -32,4 +33,5 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 - [Svelte ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Svelte-ChatBot): a good example of multi-step chatbot in Svelte
 - [VueJS (Nuxt) ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Vue-Nuxt-ChatBot): a good example of multi-step chatbot in VueJS (Nuxt)
 - [NodeJS Terminal ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NodeJS-Terminal-ChatBot): a good example of multi-step chatbot in NodeJS
+- [Expo ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Expo-ChatBot): a good example of multi-step chatbot in Expo
 
