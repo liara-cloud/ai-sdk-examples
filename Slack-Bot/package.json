@@ -1,0 +1,29 @@
+{
+  "name": "ai-sdk-slack-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.14",
+    "@slack/web-api": "^7.0.2",
+    "ai": "^4.1.46",
+    "body-parser": "^2.2.0",
+    "exa-js": "^1.4.10",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.11.17",
+    "express": "^5.1.0",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276"
+}
