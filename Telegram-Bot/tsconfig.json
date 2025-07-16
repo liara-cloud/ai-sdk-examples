@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "typeCheck": false,
+    "stripTypes": false
+  },
+  "include": [
+    "index.ts",
+    "translator.ts"
+  ]
+}
