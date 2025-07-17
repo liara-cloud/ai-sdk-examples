@@ -38,4 +38,5 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 - [Expo ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Expo-ChatBot)
 - [Slack Bot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Slack-Bot)
 - [Multi Modal ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/multi-modal-chatbot)
+- [Telegram Translator Bot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Telegram-Bot)
 
