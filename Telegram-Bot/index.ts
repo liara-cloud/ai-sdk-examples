@@ -74,7 +74,7 @@ bot.on('message', async (msg) => {
       const message = `
 ✅ ترجمه نهایی:
 
-📝 ${t.translated_text}
+📝 ${t.accurate_translated_text}
 
 ------------------------
 🌐 زبان متن اصلی: ${t.text_language}

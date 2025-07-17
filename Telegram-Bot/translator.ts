@@ -15,7 +15,7 @@ const translationSchema = z.object({
     text_language: z.string(),
     text_to_translate: z.string(),
     target_language: z.string(),
-    translated_text: z.string(),
+    accurate_translated_text: z.string(),
     explanations_related_to_translation_in_target_language: z.string(),
   }),
 });
@@ -26,7 +26,7 @@ export async function translateWithFeedback(text: string, targetLanguage: string
     text_language: '',
     text_to_translate: text,
     target_language: targetLanguage,
-    translated_text: '',
+    accurate_translated_text: '',
     explanations_related_to_translation_in_target_language: '',
   }};
   let iterations = 0;
@@ -34,18 +34,19 @@ export async function translateWithFeedback(text: string, targetLanguage: string
 
   const { object: firstTranslation } = await generateObject({
     model: my_model('openai/gpt-4o-mini'),
-    system: 'You are an expert literary translator.',
+    system: `You are an expert literary translator.
+    You Do not censor any content in the translation and provide the correct and accurate text.`,
     prompt: `Translate this text to ${targetLanguage}, preserving tone and cultural nuances:\n\n${text}`,
     schema: translationSchema,
   });
 
-  currentTranslation = firstTranslation.translation.translated_text;
+  currentTranslation = firstTranslation.translation.accurate_translated_text;
   currentObjectTranslation = firstTranslation as {
     translation: {
       text_language: string;
       text_to_translate: string;
       target_language: string;
-      translated_text: string;
+      accurate_translated_text: string;
       explanations_related_to_translation_in_target_language: string;
     };
   };
@@ -81,13 +82,13 @@ export async function translateWithFeedback(text: string, targetLanguage: string
       schema: translationSchema,
     });
 
-    currentTranslation = improvedTranslation.translation.translated_text;
+    currentTranslation = improvedTranslation.translation.accurate_translated_text;
     currentObjectTranslation = improvedTranslation as {
       translation: {
         text_language: string;
         text_to_translate: string;
         target_language: string;
-        translated_text: string;
+        accurate_translated_text: string;
         explanations_related_to_translation_in_target_language: string;
       };
     };
