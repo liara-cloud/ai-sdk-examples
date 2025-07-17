@@ -16,22 +16,26 @@ This repository provides practical examples demonstrating how to use the AI SDK 
 
 ## 🏗️ Technologies Used
 
-- [Vercel AI SDK](https://ai-sdk.dev/docs/introduction)
-- [Liara AI API](https://docs.liara.ir/ai/about)
-- [Node.js](https://nodejs.org) 
-- [Next.js](https://nextjs.org/) 
-- [TypeScript](https://www.typescriptlang.org/) 
-- Svelte (for frontend examples)
-- VueJS (Nuxt)
+- Vercel AI SDK
+- Liara AI API
+- Node.js
+- Next.js
+- TypeScript
+- Svelte
+- VueJS 
 - Expo
+- Slack API
+- Telegram API
 
 ## 📂 Examples
 
-- [Weather Tool Calling](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Tool-Calling-Weather-API): usage of `tools` on the `AI SDK` and a free weather API.
-- [NextJS App Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-App-Router-ChatBot): a good example of multi-step chatbot in NextJS App Router
-- [NextJS Pages Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-Pages-Router-ChatBot): a good example of multi-step chatbot in NextJS Pages Router
-- [Svelte ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Svelte-ChatBot): a good example of multi-step chatbot in Svelte
-- [VueJS (Nuxt) ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Vue-Nuxt-ChatBot): a good example of multi-step chatbot in VueJS (Nuxt)
-- [NodeJS Terminal ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NodeJS-Terminal-ChatBot): a good example of multi-step chatbot in NodeJS
-- [Expo ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Expo-ChatBot): a good example of multi-step chatbot in Expo
+- [Weather Tool Calling](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Tool-Calling-Weather-API)
+- [NextJS App Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-App-Router-ChatBot)
+- [NextJS Pages Router ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NextJS-Pages-Router-ChatBot)
+- [Svelte ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Svelte-ChatBot)
+- [VueJS (Nuxt) ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Vue-Nuxt-ChatBot)
+- [NodeJS Terminal ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/NodeJS-Terminal-ChatBot)
+- [Expo ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Expo-ChatBot)
+- [Slack Bot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/Slack-Bot)
+- [Multi Modal ChatBot](https://github.com/liara-cloud/ai-sdk-examples/tree/master/multi-modal-chatbot)
 
